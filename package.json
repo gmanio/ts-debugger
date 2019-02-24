@@ -9,6 +9,8 @@
   "author": "GmanPark@2019",
   "license": "MIT",
   "dependencies": {
+    "reflect-metadata": "^0.1.13",
+    "typeorm": "^0.2.13",
     "typescript": "^3.3.3333"
   }
 }

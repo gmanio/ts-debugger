@@ -1,4 +1,6 @@
-console.log('test');
+function hello(constructorFn: Function) {
+	console.log(constructorFn);
+}
 
 class Test {
 	constructor() {
