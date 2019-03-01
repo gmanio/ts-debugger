@@ -3,14 +3,18 @@
   "version": "1.0.0",
   "description": "Debugger settings for VsCode",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "show": "ts-node"
   },
   "keywords": [],
   "author": "GmanPark@2019",
   "license": "MIT",
   "dependencies": {
+    "mysql": "^2.16.0",
     "reflect-metadata": "^0.1.13",
-    "typeorm": "^0.2.13",
+    "typeorm": "^0.2.14",
     "typescript": "^3.3.3333"
+  },
+  "devDependencies": {
+    "ts-node": "^8.0.2"
   }
 }
